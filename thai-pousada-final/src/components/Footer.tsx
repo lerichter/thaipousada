@@ -49,7 +49,7 @@ export function Footer() {
       <div className="container mx-auto">
         <Container>
           {/* Contact and location section */}
-          <div className="flex flex-wrap justify-evenly border-t border-white p-10">
+          <div className="flex flex-wrap justify-evenly border-t text-center border-white p-10">
             <div className="mb-4 text-red-600">
               <h3 className="font-bold mb-2 text-2xl">Nossos Contatos</h3>
               {contatos.map((contato, index) => (
@@ -74,13 +74,6 @@ export function Footer() {
             </div>
           </div>
         </Container>
-        <div className="rounded-4xl bg-custom-red">
-          <Container>
-            <div className="text-center bg-custom-red text-white">
-              &copy; {new Date().getFullYear()} Thai Pousada
-            </div>
-          </Container>
-        </div>
       </div>
     </>
   );
