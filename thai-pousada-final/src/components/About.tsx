@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 
-import portraitImage from '@/images/photos/itacare-5-480x360.jpg'
+import portraitImage from '@/images/pousada2.png'
 
 function SocialLink({
   className,

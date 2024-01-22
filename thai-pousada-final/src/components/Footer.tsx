@@ -20,7 +20,7 @@ const localizacao = {
 export function Footer() {
   return (
     <>
-      <div className="rounded-4xl bg-custom-red py-20 sm:mt-32 sm:py-32">
+      <div className="rounded-4xl bg-custom-red py-20 sm:py-32">
         <Container>
           <div className="flex items-center gap-x-8">
             <h2 className="text-center font-display text-3xl font-semibold tracking-wider text-white sm:text-left">

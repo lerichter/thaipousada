@@ -1,7 +1,7 @@
 import Image from 'next/image'
 // Importação de outros componentes, se necessário
 
-import hero from '@/images/pousada2.png'
+import hero from '@/images/photos/itamambuca4.jpg' //2 ou 3 .. escolher
 import logoThai from '@/images/photos/logo-thai.png'
 
 export function Hero() {
@@ -12,7 +12,7 @@ export function Hero() {
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           {/* Logo Thai Image */}
           <Image src={logoThai} alt="Thai Pousada Logo" className="w-auto h-32" />
-          <p className="mt-6 text-lg text-center text-white bold bg-custom-white bg-opacity-25">O lugar perfeito para quem gosta de se hospedar com estilo, conforto e tranquilidade.</p>
+          <p className="mt-6 text-lg text-center text-white bold">O lugar perfeito para quem gosta de se hospedar com estilo, conforto e tranquilidade.</p>
         </div>
       </div>
       {/* <Photos /> */}
