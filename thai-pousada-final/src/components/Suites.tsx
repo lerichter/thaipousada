@@ -37,7 +37,7 @@ const suitesData = [
 
 export function Suites() {
   return (
-    <div className="rounded-4xl bg-white py-20 sm:mt-32">
+    <div className="rounded-4xl bg-white py-20">
       <Container>
         <h2 className="flex justify-center font-display text-4xl font-semibold tracking-wider text-custom-red">
           Nossas Suítes

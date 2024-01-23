@@ -1,7 +1,7 @@
 "use client"; // This is a client component 👈🏽
 import { useState, useEffect} from 'react'
 import { About } from '@/components/About'
-import { BannerFooter } from '@/components/BannerFooter'
+
 import { Footer } from '@/components/Footer'
 import { FloatingButtons } from '@/components/FloatingButtons'
 import { Gallery } from '@/components/Gallery'
@@ -31,7 +31,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Vantages />
         <Gallery />
         <Footer />
-        <BannerFooter />
+
         <FloatingButtons pageData={pageData} />
       </div>
     </>
