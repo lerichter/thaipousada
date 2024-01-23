@@ -48,7 +48,7 @@ export function Footer() {
             </div>
           </div>
         </Container> */}
-        <div className="rounded-4xl bg-custom-white py-15">
+        <div className="rounded-4xl bg-custom-white py-14">
           <Container>
             <div className="flex flex-wrap justify-evenly">
               <div className="mb-4 text-red-600">
@@ -68,7 +68,6 @@ export function Footer() {
               </div>
               <div className="mb-4 text-red-600">
                 <h3 className="font-bold mb-2 text-2xl">Nossas Redes</h3>
-              
               </div>
             </div>
           </Container>

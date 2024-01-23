@@ -1,7 +1,6 @@
 "use client"; // This is a client component 👈🏽
 import { useState, useEffect} from 'react'
 import { About } from '@/components/About'
-
 import { Footer } from '@/components/Footer'
 import { FloatingButtons } from '@/components/FloatingButtons'
 import { Gallery } from '@/components/Gallery'
@@ -18,7 +17,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <div className="fixed inset-0 flex justify-center sm:px-8">
+      <div className="fixed inset-0 flex justify-center">
         <div className="flex w-full max-w-7xl lg:px-8">
 
         </div>
