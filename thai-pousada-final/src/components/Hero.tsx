@@ -5,7 +5,7 @@ import Image from 'next/image';
 import logoThai from '@/images/logos/Logotipo_Thai-03.png';
 import image1 from '@/images/photos/itamambuca3.jpg';
 import image2 from '@/images/photos/itamambuca2.jpg';
-import image3 from '@/images/photos/itamambuca3.jpg';
+import image3 from '@/images/photos/itamambuca4.jpg';
 import image4 from '@/images/photos/itamambuca1.jpg';
 
 const images = [
