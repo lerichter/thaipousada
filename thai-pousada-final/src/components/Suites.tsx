@@ -57,7 +57,7 @@ const suitesData = [
   },
   {
     id: 8,
-    title: 'HONOLUA - MASTER',
+    title: 'HONOLUA - STANDART',
     description: 'A suíte standard HonoLua está localizada no piso superior e possui uma varanda privativa. No interior da suíte possui uma cama de casal, frigobar, Smart TV e ar-condicionado.',
     image: suite8,
   },
