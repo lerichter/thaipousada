@@ -28,7 +28,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <About />
         <Suites />
         <Vantages />
-        <Gallery />
+
         <Footer />
 
         <FloatingButtons pageData={pageData} />

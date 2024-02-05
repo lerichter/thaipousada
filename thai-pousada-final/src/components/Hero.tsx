@@ -47,12 +47,9 @@ export function Hero() {
   };
 
   useEffect(() => {
-    // Define um intervalo para mudar para o próximo slide
     const slideInterval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-    }, 3000); // Muda a imagem a cada 5 segundos
-
-    // Limpa o intervalo quando o componente é desmontado
+    }, 5000);
     return () => clearInterval(slideInterval);
   }, []);
 

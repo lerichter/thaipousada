@@ -24,30 +24,6 @@ export function Footer() {
     <>
       <div className="rounded-4xl bg-custom-red">
         <BookNow />
-        {/* <Container>
-
-          <div className="flex flex-wrap justify-evenly border-t text-center border-white bg-white p-10">
-            <div className="mb-4 text-red-600">
-              <h3 className="font-bold mb-2 text-2xl">Nossos Contatos</h3>
-              {contatos.map((contato, index) => (
-                <p key={index} className="mb-1 text-red-600 text-lg">{contato.valor}</p>
-              ))}
-            </div>
-            <div className="mb-4 text-red-600">
-              <h3 className="font-bold mb-2 text-2xl">Onde Estamos</h3>
-              <address className='text-lg'>
-                {localizacao.endereco}<br />
-                {localizacao.bairro}<br />
-                {localizacao.cep}<br />
-                {localizacao.cidade}
-              </address>
-            </div>
-            <div className="mb-4 text-red-600">
-              <h3 className="font-bold mb-2 text-2xl">Nossas Redes</h3>
-             
-            </div>
-          </div>
-        </Container> */}
         <div className="rounded-4xl bg-custom-white py-14">
           <Container>
             <div className="flex flex-wrap justify-evenly">

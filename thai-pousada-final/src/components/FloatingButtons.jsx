@@ -9,7 +9,7 @@ function WhatsappIcon(whatsappLink) {
     <>
       {whatsappLink &&
         <a
-        href={whatsappLink.whatsappLink}
+        href="https://wa.me/5512991430148"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-[#4aca59] rounded-full h-14 w-14 4xl:w-36 4xl:h-36 flex items-center justify-center shadow-lg hover:bg-[#3e9e4f] transition-all hover:translate-y-[-4px]"

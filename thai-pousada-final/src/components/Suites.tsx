@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { Container } from '../components/Container2';
-import { FadeIn, FadeInStagger } from '../components/FadeIn';
 
-// Importe suas imagens
-import suite1 from '@/images/photos/image-1.jpg';
+import suite1 from '@/images/suites/bali.jpg';
+import suite2 from '@/images/suites/jbay.jpg';
+import suite3 from '@/images/suites/ilha-bela.jpg';
+import suite4 from '@/images/suites/itamambuca.jpg';
 
+import suite5 from '@/images/suites/itacare.jpg';
+import suite6 from '@/images/suites/rosarito.jpg';
+import suite7 from '@/images/suites/buzios.jpg';
+import suite8 from '@/images/suites/honolua.jpg';
 
-// Crie um array de objetos com os dados de cada suíte
 const suitesData = [
   {
     id: 1,
@@ -19,23 +23,55 @@ const suitesData = [
     id: 2,
     title: 'JBAY - PREMIUM',
     description: 'A suíte premium Jeffreys Bay está localizada no piso superior, com uma varanda de uso privativo com vista para o jardim. No interior da suíte possui uma cama de solteiro e uma cama de casal com uma auxiliar de solteiro embaixo. Além de Smart TV, ar-condicionado e frigobar, a suíte também possui em seu interior uma cozinha equipada com utensílios, fogão, micro-ondas e liquidificador.',
-    image: suite1,
+    image: suite2,
   },
   {
     id: 3,
     title: 'ILHA BELA - MASTER',
     description: 'A suíte master Ilha Bela está localizada no piso superior e possui varanda com vista para o jardim. No interior da suíte possuem duas camas de solteiro e uma cama de casal com uma auxiliar de solteiro embaixo. A suíte é equipada com frigobar, smart TV e ar-condicionado.',
-    image: suite1,
+    image: suite3,
   },
   {
     id: 4,
     title: 'ITAMAMBUCA - MASTER',
     description: 'A suíte master Itamambuca está localizada no térreo, com uma varanda aconchegante de uso privativo com vista para o jardim. Na varanda contém rede para descanso, um sofá e uma mesa para refeições e afins. No interior da suíte possuem duas camas de solteiro e uma cama de casal com uma auxiliar de solteiro em baixo. A suíte é equipada com frigobar, smart TV e ar-condicionado.',
-    image: suite1,
+    image: suite4,
+  },
+  {
+    id: 5,
+    title: 'ITACARÉ - STANDART',
+    description: 'A suíte standard Itacaré está localizada no térreo, sua varanda com vista para o jardim possui uma mesa de uso privativo para refeições e afins. No interior da suíte contém uma cama de casal com uma auxiliar de solteiro embaixo.',
+    image: suite5,
+  },
+  {
+    id: 6,
+    title: 'ROSARITO - STANDART',
+    description: 'A suíte standard Rosarito está localizada no piso superior e possui uma varanda com vista para o jardim.No interior da suíte possui uma cama de casal com uma auxiliar de solteiro embaixo. A suíte é equipada com frigobar.',
+    image: suite6,
+  },
+  {
+    id: 7,
+    title: 'BUZIOS - STANDART',
+    description: 'A suíte standard Búzios está localizada no térreo, possui uma varanda privativa aconchegante com um sofá para relaxar. No interior da suíte possui uma cama de casal.',
+    image: suite7,
+  },
+  {
+    id: 8,
+    title: 'HONOLUA - MASTER',
+    description: 'A suíte standard HonoLua está localizada no piso superior e possui uma varanda privativa. No interior da suíte possui uma cama de casal, frigobar, Smart TV e ar-condicionado.',
+    image: suite8,
   },
 ];
 
 export function Suites() {
+    // Estado para controlar a quantidade de cards visíveis
+    const [visibleSuites, setVisibleSuites] = useState(4);
+
+    // Função para alternar entre mostrar mais ou menos cards
+    const toggleSuitesVisibility = () => {
+      setVisibleSuites(prevVisibleSuites => prevVisibleSuites === 4 ? suitesData.length : 4);
+    };
+
   return (
     <div className="rounded-4xl bg-white py-20">
       <Container>
@@ -43,11 +79,11 @@ export function Suites() {
           Nossas Suítes
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 m-10 mt-8 text-xl">
-          {suitesData.map((suite) => (
+          {suitesData.slice(0, visibleSuites).map((suite) => (
             <div key={suite.id} className="flex flex-col justify-between h-full bg-custom-red p-4 rounded-lg shadow-md">
               <div>
-                <div className="w-32 h-32 bg-white p-1 overflow-hidden">
-                  <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src={suite1} layout='responsive'/>
+                <div className="flex justify-center items-center overflow-hidden">
+                  <Image className="object-cover object-center" alt={suite.title} src={suite.image} layout='responsive'/>
                 </div>
                 <h1 className="mt-4 text-lg text-black font-semibold">{suite.title}</h1>
                 <p className="text-white mt-2 text-xs">{suite.description}</p>
@@ -57,6 +93,14 @@ export function Suites() {
               </button>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center mt-6">
+          <button 
+            onClick={toggleSuitesVisibility} 
+            className="bg-custom-red text-white font-bold py-2 px-6 rounded hover:bg-red-700 transition-all"
+          >
+            {visibleSuites === 4 ? 'Ver mais' : 'Ver menos'}
+          </button>
         </div>
       </Container>
     </div>

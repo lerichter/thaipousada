@@ -22,10 +22,10 @@ export function BookNow() {
                   muito verde, super aconchegante e tranquilo. Esperamos por você!
                 </p>
               </div>
-              <button className="bg-white text-custom-red font-bold py-2 px-8 rounded hover:bg-red-700 hover:text-white transition-colors duration-300">
-                RESERVAR
-              </button>
             </ul>
+            <button className="bg-white text-custom-red font-bold py-2 px-8 mt-10 rounded hover:bg-red-700 hover:text-white transition-colors duration-300">
+              RESERVAR
+            </button>
           </div>
         </Container>
       </div>
