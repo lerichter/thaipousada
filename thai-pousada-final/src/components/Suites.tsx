@@ -64,10 +64,8 @@ const suitesData = [
 ];
 
 export function Suites() {
-    // Estado para controlar a quantidade de cards visíveis
     const [visibleSuites, setVisibleSuites] = useState(4);
 
-    // Função para alternar entre mostrar mais ou menos cards
     const toggleSuitesVisibility = () => {
       setVisibleSuites(prevVisibleSuites => prevVisibleSuites === 4 ? suitesData.length : 4);
     };
@@ -75,8 +73,8 @@ export function Suites() {
   return (
     <div className="rounded-4xl bg-white py-20">
       <Container>
-        <h2 className="flex justify-center font-display text-4xl font-semibold tracking-wider text-custom-red">
-          Nossas Suítes
+        <h2 className="flex justify-center font-display text-4xl font-bold tracking-wider text-custom-red">
+          Nossas Suítes 
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 m-10 mt-8 text-xl">
           {suitesData.slice(0, visibleSuites).map((suite) => (

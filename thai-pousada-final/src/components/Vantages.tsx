@@ -37,7 +37,7 @@ export function Vantages() {
   return (
     <div className="rounded-4xl bg-custom-red py-20">
       <Container>
-        <h2 className="flex justify-center font-display text-4xl font-semibold tracking-wider text-white">
+        <h2 className="flex justify-center font-display text-4xl font-bold tracking-wider text-white">
           Nossas Vantagens
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-32 mt-8 text-xl p-10">

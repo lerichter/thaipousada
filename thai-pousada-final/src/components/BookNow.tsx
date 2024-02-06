@@ -1,34 +1,26 @@
-import { Container } from '@/components/Container2'
+import { Container } from '@/components/Container2';
 
 export function BookNow() {
   return (
-    <>
-      <div className="rounded-4xl bg-custom-red py-20">
-        <Container>
-          <div className="flex items-center gap-x-8">
-            <h2 className="text-center font-display text-3xl font-semibold tracking-wider text-white sm:text-left">
-              RESERVE AGORA
-            </h2>
-            <div className="h-px flex-auto bg-white" />
-          </div>
-          <div>
-            <ul
-              role="list"
-              className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-2 text-white"
-            >
-              <div>
-                <p className='text-xl'>
-                  Venha para a Thai Suites em Itamambuca! Praia, natureza, esportes radicais,
-                  muito verde, super aconchegante e tranquilo. Esperamos por você!
-                </p>
-              </div>
-            </ul>
-            <button className="bg-white text-custom-red font-bold py-2 px-8 mt-10 rounded hover:bg-red-700 hover:text-white transition-colors duration-300">
-              RESERVAR
-            </button>
-          </div>
-        </Container>
-      </div>
-    </>
-  )
+    <div className="rounded-4xl bg-custom-white py-10 md:py-20">
+      <Container>
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <h2 className="text-xl md:text-3xl font-semibold tracking-wider text-custom-red text-center md:text-left flex-shrink-0">
+            RESERVE AGORA
+          </h2>
+          <div className="w-full bg-custom-red h-0.5 md:flex-auto" />
+        </div>
+        <p className="mt-6 md:mt-10 text-custom-red text-lg md:text-xl text-center md:text-left">
+          Venha para a Thai Pousada em Itamambuca! <br></br>
+          Praia, natureza, esportes radicais, muito verde, super aconchegante e tranquilo. <br></br> 
+          Esperamos por você!
+        </p>
+        <div className="text-center mt-6 md:mt-10">
+          <button className="bg-custom-red text-custom-white font-bold py-2 px-4 md:px-8 rounded hover:bg-red-700 hover:text-white transition-colors duration-300">
+            RESERVAR
+          </button>
+        </div>
+      </Container>
+    </div>
+  );
 }

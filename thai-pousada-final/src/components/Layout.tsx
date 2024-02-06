@@ -28,10 +28,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <About />
         <Suites />
         <Vantages />
-
         <Footer />
 
-        <FloatingButtons pageData={pageData} />
+        {/* <FloatingButtons pageData={pageData} /> */}
       </div>
     </>
   )

@@ -6,30 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 
 import portraitImage from '@/images/pousada2.png'
-
-function SocialLink({
-  className,
-  href,
-  children,
-  icon: Icon,
-}: {
-  className?: string
-  href: string
-  icon: React.ComponentType<{ className?: string }>
-  children: React.ReactNode
-}) {
-  return (
-    <li className={clsx(className, 'flex')}>
-      <Link
-        href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200"
-      >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
-        <span className="ml-4">{children}</span>
-      </Link>
-    </li>
-  )
-}
+import logo from '@/images/logos/Logotipo_Thai-02.png'
 
 export const metadata: Metadata = {
   title: 'Sobre nós',
@@ -52,13 +29,14 @@ export function About() {
               />
             </div>
           </div>
+
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-custom-red sm:text-5xl">
               SOBRE A THAI
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600">
               <p>
-                A Thai Suítes está localizada na Vila de Itamambuca, em Ubatuba – litoral norte de São Paulo, a 700m de umas das mais belas praias do Brasil.
+                A Thai Pousada está localizada na Vila de Itamambuca, em Ubatuba – litoral norte de São Paulo, a 700m de umas das mais belas praias do Brasil.
               </p>
               <p>
                 Este refúgio de paz e tranquilidade é rodeado de natureza e oferece um escape da rotina e do stress do dia-a-dia. É o lugar perfeito para quem gosta de se hospedar com estilo, conforto e paz!
@@ -73,3 +51,5 @@ export function About() {
     </div>
   )
 }
+
+
