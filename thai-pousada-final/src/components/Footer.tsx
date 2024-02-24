@@ -10,14 +10,13 @@ const contatos = [
 const localizacao = {
   endereco: "Rua das Amendoeiras, 55",
   bairro: "Praia do Itamambuca",
-  cep: "CEP 11680-000",
+  cep: "CEP 11696-426",
   cidade: "Ubatuba/SP",
 };
 
 // Exemplo de como as informações das redes sociais podem ser estruturadas
 const redesSociais = [
-  { nome: "Facebook", url: "https://www.facebook.com", icone: "fab fa-facebook-f" },
-  { nome: "Instagram", url: "https://www.instagram.com", icone: "fab fa-instagram" },
+  { nome: "Instagram", url: "https://www.instagram.com/thai.pousada/", icone: "fab fa-instagram" },
   { nome: "WhatsApp", url: "https://wa.me/5512991430148", icone: "fab fa-whatsapp" },
 ];
 

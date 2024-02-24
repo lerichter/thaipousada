@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 
-import portraitImage from '@/images/pousada2.png'
+import portraitImage from '@/images/pousada3.png'
 import logo from '@/images/logos/Logotipo_Thai-02.png'
 
 export const metadata: Metadata = {

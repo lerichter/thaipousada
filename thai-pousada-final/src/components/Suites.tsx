@@ -15,52 +15,62 @@ import suite8 from '@/images/suites/honolua.jpg';
 const suitesData = [
   {
     id: 1,
-    title: 'BALI - PREMIUM',
-    description: 'A suíte premium Bali está localizada no térreo, com uma varanda aconchegante de uso privativo com vista para o jardim. Na varanda possui rede para descanso, um sofá e uma mesa para refeições e afins. No interior da suíte possui uma cama de solteiro, uma cama de casal com uma auxiliar de solteiro embaixo, smart TV, ar-condicionado e frigobar. A suíte também conta com uma cozinha equipada com utensílios, fogão e micro-ondas.',
-    image: suite1,
-  },
-  {
-    id: 2,
     title: 'JBAY - PREMIUM',
-    description: 'A suíte premium Jeffreys Bay está localizada no piso superior, com uma varanda de uso privativo com vista para o jardim. No interior da suíte possui uma cama de solteiro e uma cama de casal com uma auxiliar de solteiro embaixo. Além de Smart TV, ar-condicionado e frigobar, a suíte também possui em seu interior uma cozinha equipada com utensílios, fogão, micro-ondas e liquidificador.',
+    description: 'A suíte premium Jeffreys Bay está localizada no piso superior, com uma sacada de uso privativo com vista para o jardim. No interior da suíte há uma cama de casal, uma cama de solteiro e uma cama auxiliar de solteiro. A suíte é quipada com frigobar, smart TV e ar-condicionado e também conta com uma cozinha equipada com utensílios, fogão e micro-ondas.',
     image: suite2,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+JBay.+',
   },
   {
     id: 3,
-    title: 'ILHA BELA - MASTER',
-    description: 'A suíte master Ilha Bela está localizada no piso superior e possui varanda com vista para o jardim. No interior da suíte possuem duas camas de solteiro e uma cama de casal com uma auxiliar de solteiro embaixo. A suíte é equipada com frigobar, smart TV e ar-condicionado.',
-    image: suite3,
-  },
-  {
-    id: 4,
-    title: 'ITAMAMBUCA - MASTER',
-    description: 'A suíte master Itamambuca está localizada no térreo, com uma varanda aconchegante de uso privativo com vista para o jardim. Na varanda contém rede para descanso, um sofá e uma mesa para refeições e afins. No interior da suíte possuem duas camas de solteiro e uma cama de casal com uma auxiliar de solteiro em baixo. A suíte é equipada com frigobar, smart TV e ar-condicionado.',
-    image: suite4,
+    title: 'HONOLUA - EXECUTIVE',
+    description: 'A suíte standard HonoLua está localizada no piso superior e possui uma sacada privativa. No interior da suíte há uma cama de casal, frigobar, Smart TV e ar-condicionado.',
+    image: suite8,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Honolua.+',
   },
   {
     id: 5,
-    title: 'ITACARÉ - STANDART',
-    description: 'A suíte standard Itacaré está localizada no térreo, sua varanda com vista para o jardim possui uma mesa de uso privativo para refeições e afins. No interior da suíte contém uma cama de casal com uma auxiliar de solteiro embaixo.',
-    image: suite5,
-  },
-  {
-    id: 6,
-    title: 'ROSARITO - STANDART',
-    description: 'A suíte standard Rosarito está localizada no piso superior e possui uma varanda com vista para o jardim.No interior da suíte possui uma cama de casal com uma auxiliar de solteiro embaixo. A suíte é equipada com frigobar.',
-    image: suite6,
+    title: 'ILHA BELA - MASTER',
+    description: 'A suíte master Ilha Bela está localizada no piso superior, com uma sacada com vista para o jardim. No interior da suíte há uma cama de casal, duas camas de solteiro e uma cama auxiliar de solteiro. A suíte é equipada com frigobar, smart TV e ar-condicionado.',
+    image: suite3,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Ilha+Bela.+',
   },
   {
     id: 7,
-    title: 'BUZIOS - STANDART',
-    description: 'A suíte standard Búzios está localizada no térreo, possui uma varanda privativa aconchegante com um sofá para relaxar. No interior da suíte possui uma cama de casal.',
+    title: 'ROSARITO - STANDART',
+    description: 'A suíte standard Rosarito está localizada no piso superior e possui uma sacada com vista para o jardim. No interior da suíte há uma cama de casal e uma cama auxiliar de solteiro. A suíte é equipada com  frigobar, Smart TV e ar-condicionado.',
+    image: suite6,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Rosarito.+',
+  },
+
+
+  {
+    id: 2,
+    title: 'BALI - PREMIUM',
+    description: 'A suíte premium Bali está localizada no térreo, com uma varanda aconchegante de uso privativo com vista para o jardim. Na varanda há redes para descanso e uma mesa para refeições e afins. No interior da suíte há uma cama de casal, uma cama de solteiro e uma cama auxiliar de solteiro. A suíte é quipada com frigobar, smart TV e ar-condicionado e também conta com uma cozinha equipada com utensílios, fogão e micro-ondas.',
+    image: suite1,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Bali.+',
+  },  
+  {
+    id: 4,
+    title: 'BUZIOS - EXECUTIVE',
+    description: 'A suíte standard Búzios está localizada no térreo, possui uma varanda privativa aconchegante com um sofá para relaxar. No interior da suíte há cama de casal. A suíte é equipada com  frigobar, Smart TV e ar-condicionado.',
     image: suite7,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Buzios.+',
+  },
+  {
+    id: 6,
+    title: 'ITAMAMBUCA - MASTER',
+    description: 'A suíte master Itamambuca está localizada no térreo, com uma varanda aconchegante de uso privativo com vista para o jardim. Na varanda há uma rede para descanso, um sofá e uma mesa para refeições e afins. No interior da suíte há uma cama de casal, duas camas de solteiro e uma auxiliar cama de solteiro. A suíte é equipada com frigobar, smart TV e ar-condicionado.',
+    image: suite4,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Itamambuca.+',
   },
   {
     id: 8,
-    title: 'HONOLUA - STANDART',
-    description: 'A suíte standard HonoLua está localizada no piso superior e possui uma varanda privativa. No interior da suíte possui uma cama de casal, frigobar, Smart TV e ar-condicionado.',
-    image: suite8,
-  },
+    title: 'ITACARÉ - STANDART',
+    description: 'A suíte standard Itacaré está localizada no térreo, com uma varanda aconchegante de uso privativo com vista para o jardim. Na varanda há uma mesa de uso privativo para refeições e afins. No interior da suíte há uma cama de casal e uma cama auxiliar de solteiro. A suíte é equipada com  frigobar, Smart TV e ar-condicionado.',
+    image: suite5,
+    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Itacaré.+',
+  },  
 ];
 
 export function Suites() {
@@ -77,20 +87,24 @@ export function Suites() {
           Nossas Suítes 
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 m-10 mt-8 text-xl">
-          {suitesData.slice(0, visibleSuites).map((suite) => (
-            <div key={suite.id} className="flex flex-col justify-between h-full bg-custom-red p-4 rounded-lg shadow-md">
-              <div>
-                <div className="flex justify-center items-center overflow-hidden">
-                  <Image className="object-cover object-center" alt={suite.title} src={suite.image} layout='responsive'/>
-                </div>
-                <h1 className="mt-4 text-lg text-black font-semibold">{suite.title}</h1>
-                <p className="text-white mt-2 text-xs">{suite.description}</p>
+        {suitesData.slice(0, visibleSuites).map((suite) => (
+          <div key={suite.id} className="flex flex-col justify-between h-full bg-custom-red p-4 rounded-lg shadow-md">
+            <div>
+              <div className="flex justify-center items-center overflow-hidden">
+                <Image className="object-cover object-center" alt={suite.title} src={suite.image} layout='responsive'/>
               </div>
-              <button className="mt-4 bg-white text-custom-red font-bold py-2 px-6 rounded hover:bg-gray-200 transition-all">
-                Reservar
-              </button>
+              <h1 className="mt-4 text-lg text-black font-semibold">{suite.title}</h1>
+              <p className="text-white mt-2 text-xs">{suite.description}</p>
             </div>
-          ))}
+            <div className="flex justify-center mt-4">
+              <a href={suite.bookingUrl} target="_blank" rel="noopener noreferrer">
+                <button className="bg-white text-custom-red font-bold py-2 px-6 rounded hover:bg-gray-200 transition-all">
+                  Reservar
+                </button>
+              </a>
+            </div>
+          </div>
+        ))}
         </div>
         <div className="flex justify-center mt-6">
           <button 

@@ -9,10 +9,10 @@ export function Header() {
         <div className="flex flex-wrap justify-between items-center text-white py-4">
           <div className="flex items-center">
             {/* Ícones das redes sociais */}
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-white">
+            {/*<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-white">
               <span className="fab fa-facebook-f"></span>
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-white">
+            </a>*/}
+            <a href="https://www.instagram.com/thai.pousada/" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-white">
               <span className="fab fa-instagram"></span>
             </a>
           </div>
