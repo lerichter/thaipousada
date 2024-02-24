@@ -42,7 +42,7 @@ export function About() {
                 Este refúgio de paz e tranquilidade é rodeado de natureza e oferece um escape da rotina e do stress do dia-a-dia. É o lugar perfeito para quem gosta de se hospedar com estilo, conforto e paz!
               </p>
               <p>
-                São 8 suítes com TV, Wi-fi, Ar condicionado e Frigobar (4 standards, 2 masters e 2 premiums com cozinha privativa).
+                São 8 suítes com TV, Wi-fi, Ar condicionado e Frigobar.
               </p>
             </div>
           </div>
