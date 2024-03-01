@@ -29,7 +29,7 @@ export function Footer() {
           <Container>
             <div className="flex flex-wrap justify-evenly text-center md:text-left">
               <div className="w-full md:w-1/3 mb-8 md:mb-0 px-4">
-                <h3 className="font-bold mb-2 text-xl text-custom-white">Contato</h3>
+                <h3 className="font-bold mb-2 text-2xl text-custom-white">Contatos</h3>
                 {contatos.map((contato, index) => (
                   <p key={index} className="mb-1 text-lg text-custom-white">{`${contato.valor}`}</p>
                 ))}
