@@ -1,5 +1,5 @@
 import { Container } from '@/components/Container2'
-import { BannerFooter } from '@/components/BannerFooter'
+import { Widget } from '@/components/Widget'
 import { BookNow } from '@/components/BookNow'
 
 const contatos = [
@@ -25,7 +25,7 @@ export function Footer() {
     <>
       <div className="rounded-4xl bg-custom-red">
         <BookNow />
-        <div className="rounded-4xl bg-custom-red py-14">
+        <div className="rounded-4xl bg-custom-red pt-14 lg:py-14">
           <Container>
             <div className="flex flex-wrap justify-evenly text-center md:text-left">
               <div className="w-full md:w-1/3 mb-8 md:mb-0 px-4">
@@ -54,10 +54,8 @@ export function Footer() {
                 </div>
               </div>
             </div>
+            <Widget />
           </Container>
-        </div>
-        <div className='mb-12'>
-        <BannerFooter />
         </div>
       </div>
     </>
