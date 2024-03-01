@@ -1,20 +1,30 @@
-import { type Metadata } from 'next'
-import Image from 'next/image'
-import Link from 'next/link'
-import clsx from 'clsx'
+import { useEffect } from 'react';
+import { type Metadata } from 'next';
+import Image from 'next/image';
+import Script from 'next/script'; // Import Script from Next.js
 
-import { Container } from '@/components/Container'
+import { Container } from '@/components/Container';
 
-import portraitImage from '@/images/pousada3.png'
-import logo from '@/images/logos/Logotipo_Thai-02.png'
+import portraitImage from '@/images/pousada3.png';
+import logo from '@/images/logos/Logotipo_Thai-02.png';
 
 export const metadata: Metadata = {
   title: 'Sobre nós',
-  description:
-    'Sobre nós',
-}
+  description: 'Sobre nós',
+};
 
 export function About() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://hotels.cloudbeds.com/widget/load/bPfQcZ/float?newWindow=1";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="rounded-4xl bg-custom-white py-20">
       <Container>
@@ -49,7 +59,5 @@ export function About() {
         </div>
       </Container>
     </div>
-  )
+  );
 }
-
-

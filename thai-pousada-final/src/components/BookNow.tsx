@@ -2,7 +2,7 @@ import { Container } from '@/components/Container2';
 
 export function BookNow() {
   // Substitua 'https://example.com/reserve' pelo URL real de reserva
-  const bookingUrl = 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+Pousada+';
+  const bookingUrl = "https://hotels.cloudbeds.com/reservas/bPfQcZ";
 
   return (
     <div className="rounded-4xl bg-custom-white py-10 md:py-20">

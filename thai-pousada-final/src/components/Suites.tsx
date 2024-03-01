@@ -50,7 +50,7 @@ const suitesData = [
   {
     id: 1,
     title: 'JBAY - PREMIUM',
-    description: 'A suíte premium Jeffreys Bay está localizada no piso superior, com uma sacada de uso privativo com vista para o jardim. No interior da suíte há uma cama de casal, uma cama de solteiro e uma cama auxiliar de solteiro. A suíte é quipada com frigobar, smart TV e ar-condicionado e também conta com uma cozinha equipada com utensílios, fogão e micro-ondas.',
+    description: 'A suíte premium Jeffreys Bay está localizada no piso superior, com uma sacada de uso privativo com vista para o jardim. No interior da suíte há uma cama de casal, uma cama de solteiro e uma cama auxiliar de solteiro. A suíte é equipada com frigobar, smart TV e ar-condicionado e também conta com uma cozinha equipada com utensílios, fogão e micro-ondas.',
     images: [
       { src: suitejbay1, alt: 'Descrição da imagem 1' },
       { src: suitejbay2, alt: 'Descrição da imagem 1' },
@@ -62,7 +62,7 @@ const suitesData = [
   {
     id: 3,
     title: 'HONOLUA - EXECUTIVE',
-    description: 'A suíte standard HonoLua está localizada no piso superior e possui uma sacada privativa. No interior da suíte há uma cama de casal, frigobar, Smart TV e ar-condicionado.',
+    description: 'A suíte executive Honolua está localizada no piso superior e possui uma sacada privativa. No interior da suíte há uma cama de casal, frigobar, Smart TV e ar-condicionado.',
     images: [
       { src: suitehonolua1, alt: 'Descrição da imagem 1' },
       { src: suitehonolua2, alt: 'Descrição da imagem 1' },
@@ -112,7 +112,7 @@ const suitesData = [
   {
     id: 4,
     title: 'BUZIOS - EXECUTIVE',
-    description: 'A suíte standard Búzios está localizada no térreo, possui uma varanda privativa aconchegante com um sofá para relaxar. No interior da suíte há cama de casal. A suíte é equipada com  frigobar, Smart TV e ar-condicionado.',
+    description: 'A suíte executive Búzios está localizada no térreo, possui uma varanda privativa aconchegante com um sofá para relaxar. No interior da suíte há cama de casal. A suíte é equipada com  frigobar, Smart TV e ar-condicionado.',
     images: [
       { src: suitebuzios1, alt: 'Descrição da imagem 1' },
       { src: suitebuzios2, alt: 'Descrição da imagem 1' },

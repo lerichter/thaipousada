@@ -56,7 +56,9 @@ export function Footer() {
             </div>
           </Container>
         </div>
+        <div className='mb-12'>
         <BannerFooter />
+        </div>
       </div>
     </>
   );
