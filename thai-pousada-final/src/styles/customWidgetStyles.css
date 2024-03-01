@@ -45,3 +45,17 @@
     cursor: pointer;
   }
   
+  .fixed-bottom-widget {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 40; /* Adjust if necessary to ensure the widget is on top */
+}
+
+@media (max-width: 768px) { /* Adjustments for smaller screens */
+    .fixed-bottom-widget {
+        width: 100%; /* Ensure it spans the entire width */
+        border-radius: 0; /* Optional: Adjust if you want a different appearance on mobile */
+    }
+}

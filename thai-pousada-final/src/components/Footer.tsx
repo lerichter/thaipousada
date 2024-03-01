@@ -3,8 +3,8 @@ import { BannerFooter } from '@/components/BannerFooter'
 import { BookNow } from '@/components/BookNow'
 
 const contatos = [
-  { tipo: "Telefone", valor: "(12) 99143-0148" },
-  { tipo: "Email", valor: "reservas@thaipousada.com.br" },
+  { valor: "(12) 99143-0148" },
+  { valor: "reservas@thaipousada.com.br" },
 ];
 
 const localizacao = {
@@ -31,7 +31,7 @@ export function Footer() {
               <div className="w-full md:w-1/3 mb-8 md:mb-0 px-4">
                 <h3 className="font-bold mb-2 text-2xl text-custom-white">Nossos Contatos</h3>
                 {contatos.map((contato, index) => (
-                  <p key={index} className="mb-1 text-lg text-custom-white">{`${contato.tipo}: ${contato.valor}`}</p>
+                  <p key={index} className="mb-1 text-lg text-custom-white">{`${contato.valor}`}</p>
                 ))}
               </div>
               <div className="w-full md:w-1/3 mb-8 md:mb-0 px-4">
