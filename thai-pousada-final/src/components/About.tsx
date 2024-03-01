@@ -26,12 +26,11 @@ export function About() {
   }, []);
 
   return (
-    <div className="rounded-4xl bg-custom-white py-20">
+    <div className="rounded-4xl bg-custom-white pb-20 lg:py-20">
       <Container>
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12 bg-transparent">
           <div className="lg:pl-20">
-            <div className="max-w-xs px-2.5 lg:max-w-none">
-              <Image
+          <div className="hidden lg:block max-w-xs px-2.5 lg:max-w-none">              <Image
                 src={portraitImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
