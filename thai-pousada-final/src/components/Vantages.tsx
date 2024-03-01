@@ -28,7 +28,7 @@ const vantagens = [
 
 export function Vantages() {
   const vantagens = [
-    { icone: icone1, texto: "Café da Manhã incluso na diária" },
+    { icone: icone1, texto: "Café da Manhã opcional na diária" },
     { icone: icone2, texto: "Estacionamento Gratuito separado por suíte" },
     { icone: icone3, texto: "Toda nossa estrutura é voltada para conforto de sua família" },
     { icone: icone4, texto: "à 700 metros da Praia de Itamambuca - Ubatuba/SP" },

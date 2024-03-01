@@ -30,7 +30,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Vantages />
         <Footer />
 
-        {/* <FloatingButtons pageData={pageData} /> */}
+        <FloatingButtons pageData={pageData} />
       </div>
     </>
   )
