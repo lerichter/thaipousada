@@ -57,7 +57,7 @@ const suitesData = [
       { src: suitejbay3, alt: 'Descrição da imagem 1' },
       { src: suitejbay4, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+JBay.+',
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ const suitesData = [
       { src: suitehonolua3, alt: 'Descrição da imagem 1' },
       { src: suitehonolua4, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Honolua.+',
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ const suitesData = [
       { src: suiteilhabela2, alt: 'Descrição da imagem 1' },
       { src: suiteilhabela3, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Ilha+Bela.+',
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
   },
   {
     id: 7,
@@ -92,7 +92,7 @@ const suitesData = [
       { src: suiterosarito3, alt: 'Descrição da imagem 1' },
       { src: suiterosarito4, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Rosarito.+',
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
   },
 
 
@@ -107,7 +107,7 @@ const suitesData = [
       { src: suitebali4, alt: 'Descrição da imagem 1' },
       { src: suitebali5, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Bali.+',
+    bookingUrl: "https://hotels.cloudbeds.com/reservas/bPfQcZ",
   },  
   {
     id: 4,
@@ -118,7 +118,7 @@ const suitesData = [
       { src: suitebuzios2, alt: 'Descrição da imagem 1' },
       { src: suitebuzios3, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Buzios.+',
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
   },
   {
     id: 6,
@@ -131,7 +131,7 @@ const suitesData = [
       { src: suiteitambuca4, alt: 'Descrição da imagem 1' },
       { src: suiteitambuca5, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Itamambuca.+',
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
   },
   {
     id: 8,
@@ -143,8 +143,8 @@ const suitesData = [
       { src: suiteitacare3, alt: 'Descrição da imagem 1' },
       { src: suiteitacare4, alt: 'Descrição da imagem 1' },
     ],
-    bookingUrl: 'https://api.whatsapp.com/send?phone=+55(12)99143-0148&text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+consultar+a+disponibilidade+da+su%C3%ADte+Itacaré.+',
-  },  
+    bookingUrl: 'https://hotels.cloudbeds.com/reservas/bPfQcZ',
+  }
 ];
 
 export function Suites() {
