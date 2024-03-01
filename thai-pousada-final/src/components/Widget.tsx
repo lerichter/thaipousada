@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 
 import { Container } from '../components/Container2'
 import '@fortawesome/fontawesome-free/css/all.min.css';
