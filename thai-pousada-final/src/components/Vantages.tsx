@@ -10,7 +10,7 @@ import icone4 from '@/images//vacations.png'
 const vantagens = [
   {
     icone: icone1,
-    texto: "Café da Manhã incluso na diária",
+    texto: "Café da Manhã opcional na diária",
   },
   {
     icone: icone2,
